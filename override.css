@@ -2,3 +2,8 @@
 .wp-block-button__link {
 	text-transform: none;
 }
+
+.wp-block-latest-posts__post-date {
+	font-size: .7 em;
+	color: #555;
+}
