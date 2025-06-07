@@ -39,7 +39,7 @@
 .tix-column-price {
 	padding: 0 2em;
 }
-#tix input[type=‘submit’] {
+#tix input[type='submit'] {
 	background: var(--wp--preset--color--custom-a-11-y-red-text);
 	color: var(--wp--preset--color--base);
 	border-radius: 5px;
