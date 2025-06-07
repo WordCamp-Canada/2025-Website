@@ -39,7 +39,7 @@
 .tix-column-price {
 	padding: 0 2em;
 }
-#tix input {
+#tix input[type=‘submit’] {
 	background: var(--wp--preset--color--custom-a-11-y-red-text);
 	color: var(--wp--preset--color--base);
 	border-radius: 5px;
@@ -51,4 +51,18 @@
 	border-top:1px solid var(--wp--preset--color--custom-a-11-y-red-text);
 	padding-top: 1em;
 	margin-top: 2em;	
+}
+
+.tix_tickets_table.tix-order-summary {
+	width: 100%;
+	text-align: left;
+}
+.tix-ticket-form td.tix-right,
+.tix-private-form td.tix-right,
+.tix-attendee-form td.tix-right,
+.tix-receipt-form td.tix-right {
+	width: 40%;
+}
+.tix_tickets_table td {
+	padding: .25em;
 }
