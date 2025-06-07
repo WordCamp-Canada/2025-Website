@@ -36,7 +36,7 @@
 	background-color: #fff;
 	border-radius: 5px;
 }
-.tix_tickets_table.tix-tickets-list .tix-column-price {
+.tix-column-price {
 	padding: 0 2em;
 }
 #tix input[type=‘submit’] {
