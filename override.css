@@ -39,13 +39,15 @@
 .tix-column-price {
 	padding: 0 2em;
 }
-#tix input[type='submit'] {
+#tix input[type="submit"],
+#tix .tix-submit .tix-checkout-button {
 	background: var(--wp--preset--color--custom-a-11-y-red-text);
 	color: var(--wp--preset--color--base);
 	border-radius: 5px;
 	padding: 1rem 1.6rem;
 	font-size: var(--wp--preset--font-size--medium);
 	border: none;
+	text-transform: none;
 }
 .faq-grid > .wp-block-group {
 	border-top:1px solid var(--wp--preset--color--custom-a-11-y-red-text);
